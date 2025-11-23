@@ -3,7 +3,7 @@
 #include "Profiles/Environment/Profiles/ANTPLUS_ProfileEnvironmentMonitor.h"
 #include <WiFi.h>
 
-#define NETWORK_KEY {0x10, 0x20, 0x30, 0x40, 0x50, 0x60, 0x70, 0x80}
+#define NETWORK_KEY {xx xx xx xxxxx}
 #define DEVICE_NUMBER 12345
 #define TRANSMISSION_TYPE 0
 
@@ -86,3 +86,4 @@ void configureUnusedPins() {
     // DS18B20-Pin konfigurieren
     pinMode(DS18B20_PIN, INPUT);
 }
+
